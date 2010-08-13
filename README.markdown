@@ -3,6 +3,11 @@ BarcodeGenerator
 !(http://farm2.static.flickr.com/1378/1125817164_6f57adb24a_o.png "sample barcode image")
 
 ### Author : Anuj Luthra
+### Modified by: Mina Mikhail
+
+### Rails 3
+This is a simple update to Anuj Luthra's barcode-generator plugin to make it compatible with Rails 3.
+All of the changes are internal. None of the usage details have changed.
 
 Barcode generator makes generating/displaying bar-codes for certain 
 alphanumeric ids a piece of cake.

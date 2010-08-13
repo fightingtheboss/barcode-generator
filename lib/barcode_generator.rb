@@ -25,8 +25,8 @@ module ActionView
       output_format = options[:output_format] ? options[:output_format] : DEFAULT_FORMAT
 
       id.upcase!
-      eps = "#{RAILS_ROOT}/public/images/barcodes/#{id}.eps"
-      out = "#{RAILS_ROOT}/public/images/barcodes/#{id}.#{output_format}"
+      eps = "#{Rails.root}/public/images/barcodes/#{id}.eps"
+      out = "#{Rails.root}/public/images/barcodes/#{id}.#{output_format}"
       
       #dont generate a barcode again, if already generated
       unless File.exists?(out)
